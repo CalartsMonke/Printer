@@ -1,0 +1,8 @@
+<pocketitems>
+    <card type="special" description="PLACEHOLDER" hud="CryingPicture" pickup="280" name="CryingPicture"  />
+    <card type="special" description="PLACEHOLDER" hud="DemonChild" pickup="281" name="DemonChild"  />
+    <card type="special" description="PLACEHOLDER" hud="TheChest" pickup="282" name="TheChest"  />
+    <card type="special" description="PLACEHOLDER" hud="PoopPicture" pickup="283" name="PoopyPicture"  />
+    <card type="special" description="PLACEHOLDER" hud="ScaryFace" pickup="284" name="ScaryFace"  />
+    <card type="special" description="PLACEHOLDER" hud="Flowermin" pickup="285" name="Flowers"  />
+</pocketitems>

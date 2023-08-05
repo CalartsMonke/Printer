@@ -1,0 +1,21 @@
+<entities anm2root="gfx/" version="1">
+    <entity anm2path="printercards.anm2" name="CryingPicture"  baseHP="0" boss="0" champion="0" collisionDamage="0" id="5" stageHP="0" variant="300" subtype="280" 
+    collisionMass="3" collisionRadius="12" friction="1" numGridCollisionPoints="24" shadowSize="16"/>
+
+    <entity anm2path="printercards.anm2" name="DemonChild"  baseHP="0" boss="0" champion="0" collisionDamage="0" id="5" stageHP="0" variant="300" subtype="281" 
+    collisionMass="3" collisionRadius="12" friction="1" numGridCollisionPoints="24" shadowSize="16"/>
+
+    <entity anm2path="printercards.anm2" name="TheChest"  baseHP="0" boss="0" champion="0" collisionDamage="0" id="5" stageHP="0" variant="300" subtype="282" 
+    collisionMass="3" collisionRadius="12" friction="1" numGridCollisionPoints="24" shadowSize="16"/>
+
+    <entity anm2path="printercards.anm2" name="PoopyPicture"  baseHP="0" boss="0" champion="0" collisionDamage="0" id="5" stageHP="0" variant="300" subtype="283" 
+    collisionMass="3" collisionRadius="12" friction="1" numGridCollisionPoints="24" shadowSize="16"/>
+
+    <entity anm2path="printercards.anm2" name="ScaryFace"  baseHP="0" boss="0" champion="0" collisionDamage="0" id="5" stageHP="0" variant="300" subtype="284" 
+    collisionMass="3" collisionRadius="12" friction="1" numGridCollisionPoints="24" shadowSize="16"/>
+
+    <entity anm2path="printercards.anm2" name="Flowers"  baseHP="0" boss="0" champion="0" collisionDamage="0" id="5" stageHP="0" variant="300" subtype="285" 
+    collisionMass="3" collisionRadius="12" friction="1" numGridCollisionPoints="24" shadowSize="16"/>
+        
+    </entity>
+</entities>

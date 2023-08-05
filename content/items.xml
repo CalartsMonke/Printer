@@ -1,0 +1,3 @@
+<items gfxroot="gfx/items/" version="1">
+<active id="1" name="Printer" gfx="printer_item.png" description="Print a pretty picture!" quality="2" maxcharges="4" chargetype="normal"/>
+</items>
