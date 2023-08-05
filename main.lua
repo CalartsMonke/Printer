@@ -26,7 +26,28 @@ end
 mod:AddCallback(ModCallbacks.MC_USE_ITEM, mod.printerUse, PRINTER);
 
 
-
-
-
-
+--  STRIMP'S KILL YOURSELF CODE FOR KILLING YOUR SELF (you should)
+--  
+--  local function UseCryingCard(_, card, player)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--      player:UseActiveItem(CollectibleType.COLLECTIBLE_CRACK_THE_SKY, false, false, true, false)
+--  end
+--  
+--  mod:AddCallback(ModCallbacks.MC_USE_CARD, UseCryingCard, crypicture)
