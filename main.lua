@@ -26,12 +26,53 @@ end
 mod:AddCallback(ModCallbacks.MC_USE_ITEM, mod.printerUse, PRINTER);
 
 --    [Card Pocket Item Functions]
+
+
+--    [Crying Card]
 local function  UseCryingCard (_, card, player)
     player:UseActiveItem(CollectibleType.COLLECTIBLE_TAMMYS_HEAD, false, false, true, false)
 end
 
 mod:AddCallback(ModCallbacks.MC_USE_CARD, UseCryingCard, CRYINGCARD)
 
+
+--    [Demon Child Card]
+local function UseDemonChild (_, card, player)
+    player:UseActiveItem(CollectibleType.COLLECTIBLE_THE_NAIL, false, false, true, true)
+end
+
+mod:AddCallback(ModCallbacks.MC_USE_CARD, UseDemonChild, DEMONCHILDCARD)
+
+
+
+--   [The Chest Card]
+local function UseTheChest (_, card, player)
+    Isaac.Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_LOCKEDCHEST, ChestSubType.CHEST_CLOSED, Isaac.GetFreeNearPosition(player.Position, 20), RandomVector(), player)
+end
+
+mod:AddCallback(ModCallbacks.MC_USE_CARD, UseTheChest, THECHESTCARD)
+
+--   [The Poop Card]
+local function UseThePoopCard (_, card, player)
+    Isaac.GridSpawn(GridEntityType.GRID_POOP,0, Isaac.GetFreeNearPosition(player.Position, 20), RandomVector(), player)
+end
+
+mod:AddCallback(ModCallbacks.MC_USE_CARD, UseThePoopCard, POOPCARD)
+
+
+--    [ScaryFace Card]
+local function UseScaryFace (_, card, player)
+    ScaryFaceFearTimer = 9999
+        local entities = Isaac.GetRoomEntities()
+            for _, entity in ipairs(entities) do
+                if entity:IsActiveEnemy() and entity:IsVulnerableEnemy() then
+                    entity:AddFear(EntityRef(player),(ScaryFaceFearTimer))
+                end
+            end
+            
+end
+
+mod:AddCallback(ModCallbacks.MC_USE_CARD, UseScaryFace, SCARYFACECARD)
 
 
 
